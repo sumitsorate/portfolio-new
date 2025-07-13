@@ -1,10 +1,13 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { AboutComponent } from './about/about.component';
+import { WorksComponent } from './works/works.component';
+import { ContactsComponent } from './contacts/contacts.component';
+import { IntroComponent } from './intro/intro.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
+  imports: [AboutComponent, WorksComponent, ContactsComponent, IntroComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
