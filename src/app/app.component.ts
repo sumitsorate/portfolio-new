@@ -13,4 +13,5 @@ import { IntroComponent } from './intro/intro.component';
 })
 export class AppComponent {
   title = 'new-portfolio';
+  currentYear: number = new Date().getFullYear();
 }
