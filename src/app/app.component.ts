@@ -6,9 +6,10 @@ import { IntroComponent } from './intro/intro.component';
 
 @Component({
     selector: 'app-root',
+    standalone: true,
     imports: [AboutComponent, WorksComponent, ContactsComponent, IntroComponent],
     templateUrl: './app.component.html',
-    styleUrl: './app.component.css'
+    styleUrls: ['./app.component.css']
 })
 export class AppComponent {
   title = 'new-portfolio';
