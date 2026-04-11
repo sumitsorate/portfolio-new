@@ -5,11 +5,10 @@ import { ContactsComponent } from './contacts/contacts.component';
 import { IntroComponent } from './intro/intro.component';
 
 @Component({
-  selector: 'app-root',
-  standalone: true,
-  imports: [AboutComponent, WorksComponent, ContactsComponent, IntroComponent],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+    selector: 'app-root',
+    imports: [AboutComponent, WorksComponent, ContactsComponent, IntroComponent],
+    templateUrl: './app.component.html',
+    styleUrl: './app.component.css'
 })
 export class AppComponent {
   title = 'new-portfolio';
